@@ -1,0 +1,33 @@
+.nav {
+    background: var(--header-color);
+    height: 50px;
+    position: sticky;
+    align-items: center;
+    gap: 0.5rem 0.5rem;
+    padding: 0 10px;
+}
+
+.navItem {
+    
+    height: 100%;
+
+    align-items: center;
+    position:relative;
+}
+
+/* .navItem:after {
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#e6866d;
+    height:2px;
+    border-radius:10px;
+  } */
+
+.active {
+    border-bottom: 3px solid #e6866d;
+    border-radius: 0.375rem, 0.375rem;
+    font-weight: 500;
+}
