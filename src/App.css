@@ -3,6 +3,7 @@
   --header-color: #020508;
   --main-text-color: #e6ecf2;
   --main-font: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  --control-medium-gap: 0.5rem;
 }
 
 body {
@@ -22,6 +23,11 @@ body {
   border: 1px solid #f2f4f748;
   border-radius: 0.375rem;
   height: 80vh;
+  padding: 1.5rem;
+}
+
+.profile {
+  margin-right: 0.1rem;
 }
 
 a {
@@ -30,7 +36,13 @@ a {
 }
 
 .container {
-  border-top: 1px solid #f2f4f748;
-  padding-top: 2%;
-  padding: 2% 10% 0 10%;
+  padding: 2rem 2rem;
+  max-width: 75rem;
+  margin: auto;
+}
+
+.material-symbols-outlined {
+  color: #6d757d;
+  font-size: 22px;
+  margin-right: var(--control-medium-gap, 0.5rem);
 }

@@ -1,9 +1,14 @@
-import React from 'react'
-import Header from '../../components/Header/Header'
+import ContributionGraph from '../../components/ContributionGraph/ContributionGraph'
 
 function Home() {
   return (
-        <div className='page'>Home</div>
+    <>
+      <div className='page'>prakharmehta / HOME
+      <ContributionGraph></ContributionGraph>
+      </div>
+      
+    </>
+
   )
 }
 
