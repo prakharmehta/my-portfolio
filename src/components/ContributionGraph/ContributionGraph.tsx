@@ -74,7 +74,7 @@ const ContributionGraph = () => {
           id="consistency"
           name="consistency"
           step="0.1"
-          min="0"
+          min="0.1"
           max="1"
           onChange={updateConsistency}
           value={consistency}
