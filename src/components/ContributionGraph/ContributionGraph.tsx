@@ -54,7 +54,7 @@ const ContributionGraph = () => {
   };
 
   return (
-    <>
+    <div className={styles.contribution_graph_container}>
       <div className={styles.contribution_graph}>
         {contributions.map((color, index) => (
           <div
@@ -64,7 +64,7 @@ const ContributionGraph = () => {
           />
         ))}
       </div>
-      <div className={styles.sliders}>
+      {/* <div className={styles.sliders}>
     <div className={styles.range_slider_container}>
         <label htmlFor="consistency">Consistency</label>
         <br />
@@ -95,8 +95,8 @@ const ContributionGraph = () => {
           value={speed}
         />
       </div>
+    </div> */}
     </div>
-    </>
   );
 };
 

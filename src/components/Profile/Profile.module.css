@@ -2,7 +2,65 @@
     flex: 1;
 }
 
+.profile {
+    padding: 0px 24px;
+}
+
 .profile__image img{
     border: 2px solid #f2f4f71f;
     border-radius: 50%;
+}
+
+.profile__fullname {
+    font-size: 24px;
+    line-height: 1.25;
+}
+
+.profile__names {
+    font-size: var(--h1-size, 32px);
+    font-weight: var(--base-text-weight-semibold, 600);
+}
+
+.profile__username {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: var(--base-text-weight-light, 300);
+    line-height: 24px;
+    color: #69717a;
+}
+
+.py_3 {
+    padding-top: var(--base-size-16, 16px) !important;
+    padding-bottom: var(--base-size-16, 16px) !important;
+}
+
+.mb_3 {
+    margin-bottom: var(--base-size-16, 16px) !important;
+}
+
+.profile__tagline, .profile__current_org, .profile__current_location {
+    font-size: 14px;
+}
+
+.profile__current_org, .profile__current_location {
+    display: flex;
+}
+
+.profile__current_org {
+    margin-bottom: 4px;
+}
+
+.profile__resume, .profile__resume button {
+    width: 100%;
+}
+
+.profile__resume button{
+    border: 1px solid #f2f4f748;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #26a641;
+    color: white;
+    font-weight: var(--base-text-weight-semibold);
+    cursor: pointer;
+    font-family: var(--main-font);
 }
