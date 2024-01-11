@@ -1,0 +1,40 @@
+.range_slider_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.github_range_slider {
+  width: 100%;
+  height: 5px;
+  border-radius: 2px;
+  background: linear-gradient(to right, #0e4429, #006d32, #26a641, #39d353);
+  outline: none;
+  appearance: none;
+}
+
+.github_range_slider::-webkit-slider-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  -webkit-appearance: none;
+  background: #161b22;
+  border: 2px solid #6d757d;
+  cursor: pointer;
+}
+
+.sliders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.slider_label {
+    font-size: 14px;
+    margin-right: 0.5rem;
+    font-weight: var(--base-text-weight-semibold);
+}
